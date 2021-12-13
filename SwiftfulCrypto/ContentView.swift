@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftfulCrypto
-//
-//  Created by devhaute on 2021/12/13.
-//
-
 import SwiftUI
 
 struct ContentView: View {
