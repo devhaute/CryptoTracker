@@ -30,9 +30,8 @@ import Foundation
 //     "price_change_percentage_24h_in_currency": 1.019624471239987
 // }
 
-struct CoinModel: Codable {
-    let id, symbol, name: String?
-    let image: String?
+struct CoinModel: Identifiable, Codable {
+    let id, symbol, name, image: String
     let currentPrice: Double
     let marketCap, marketCapRank, fullyDilutedValuation: Double?
     let totalVolume, high24H, low24H: Double?
