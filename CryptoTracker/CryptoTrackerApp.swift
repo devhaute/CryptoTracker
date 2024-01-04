@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct SwiftfulCryptoApp: App {
+struct CryptoTrackerApp: App {
     @StateObject private var homeVM = HomeViewModel()
     
     var body: some Scene {
